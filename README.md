@@ -11,3 +11,10 @@ Project gồm 4 file chính:
 - Chạy trên pycharm (vì chạy trên visual studio gặp lỗi)
 - Import thư viện pygame
 - Vào file Menu.py để chạy trò chơi
+
+# Phân công công việc
+- Nguyễn Nam Hoàng: Xây dựng menu, hình ảnh bàn cờ(drawBoard, drawPiece), hình ảnh các nút reset, return, quân cờ; xây dựng AI cờ vua 
+- Trần Nhật Hoàng: Class CastleRights, xây dựng 1 phần class GameState: gồm các hàm: hàm khởi tạo, makeMove, undoMove, updateCastleRights, squareUnderAttack, inCheck, checkForPinsAndChecks, getCastleMove, getKingsideCastleMoves, getQueensideCastleMoves (trong file ChessEngine.py)
+- Giáp Việt Hùng:Xây dựng 1 phần class GameState: gồm các hàm: getPawnMove,getRookMove, getKnightMove, getBishopMove, getQueenMove, getKingMove, getAllPossibleMoves, getValidMoves (trong file ChessEngine.py), xây dựng các hàm: highlightSquares(file chessMain.py)
+- Nguyễn Văn Hưng: Xây dựng class Move(trong file ChessEngine.py); các hàm animatedMove, drawMoveLog, drawEndGameText(file chessMain.py);
+vòng lặp while trong hàm main ( từ while running: -> hết hàm main)
