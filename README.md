@@ -8,6 +8,6 @@ Project gồm 4 file chính:
 - ChessEngine.py: Lưu trữ tất cả thông tin về trạng thái hiện tại của trò chơi cờ vua.Xác định những nước đi hợp lệ tại trạng thái hiện tại. Lưu giữ bản ghi về các nước đi đã thực hiện.
 - ChessAI.py: AI cờ vua
 #  Hướng dẫn chạy code
+- Chạy trên pycharm (vì chạy trên visual studio gặp lỗi)
 - Import thư viện pygame
 - Vào file Menu.py để chạy trò chơi
-
